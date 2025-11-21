@@ -1,0 +1,1 @@
+Running: d=0 lr=0.01

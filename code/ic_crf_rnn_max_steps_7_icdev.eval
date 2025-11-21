@@ -1,0 +1,19 @@
+Total negative logprob: 22.8737 over 34 tokens
+Cross-entropy: 0.6728 nats (= perplexity 1.960)
+Total negative logprob: 22.2745 over 34 tokens
+Cross-entropy: 0.6551 nats (= perplexity 1.925)
+Total negative logprob: 18.6799 over 34 tokens
+Cross-entropy: 0.5494 nats (= perplexity 1.732)
+Total negative logprob: 10.5267 over 34 tokens
+Cross-entropy: 0.3096 nats (= perplexity 1.363)
+Total negative logprob: 5.6907 over 34 tokens
+Cross-entropy: 0.1674 nats (= perplexity 1.182)
+Total negative logprob: 6.3740 over 34 tokens
+Cross-entropy: 0.1875 nats (= perplexity 1.206)
+Total training time: 0:00:54
+---
+Wrote tagging to ic_crf_rnn_max_steps_7_icdev.output
+Total negative logprob: 6.3740 over 34 tokens
+Cross-entropy: 0.1875 nats (= perplexity 1.206)
+Tagging accuracy: all: 87.879%, known: 87.879%, seen: nan%, novel: nan%
+===

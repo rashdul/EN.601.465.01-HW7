@@ -1,0 +1,30 @@
+Total negative logprob: 76119.4673 over 24945 tokens
+Cross-entropy: 3.0515 nats (= perplexity 21.147)
+Total negative logprob: 41012.5525 over 24945 tokens
+Cross-entropy: 1.6441 nats (= perplexity 5.176)
+Total negative logprob: 33195.2472 over 24945 tokens
+Cross-entropy: 1.3307 nats (= perplexity 3.784)
+Total negative logprob: 29400.3796 over 24945 tokens
+Cross-entropy: 1.1786 nats (= perplexity 3.250)
+Total negative logprob: 27018.0525 over 24945 tokens
+Cross-entropy: 1.0831 nats (= perplexity 2.954)
+Total negative logprob: 25288.4814 over 24945 tokens
+Cross-entropy: 1.0138 nats (= perplexity 2.756)
+Total negative logprob: 23971.3461 over 24945 tokens
+Cross-entropy: 0.9610 nats (= perplexity 2.614)
+Total negative logprob: 22937.4651 over 24945 tokens
+Cross-entropy: 0.9195 nats (= perplexity 2.508)
+Total negative logprob: 22047.9605 over 24945 tokens
+Cross-entropy: 0.8839 nats (= perplexity 2.420)
+Total negative logprob: 21280.8509 over 24945 tokens
+Cross-entropy: 0.8531 nats (= perplexity 2.347)
+Total negative logprob: 20658.7521 over 24945 tokens
+Cross-entropy: 0.8282 nats (= perplexity 2.289)
+Total negative logprob: 20092.9434 over 24945 tokens
+Cross-entropy: 0.8055 nats (= perplexity 2.238)
+Total negative logprob: 19583.9750 over 24945 tokens
+Cross-entropy: 0.7851 nats (= perplexity 2.193)
+Total negative logprob: 19126.2568 over 24945 tokens
+Cross-entropy: 0.7667 nats (= perplexity 2.153)
+Total negative logprob: 18713.5964 over 24945 tokens
+Cross-entropy: 0.7502 nats (= perplexity 2.117)

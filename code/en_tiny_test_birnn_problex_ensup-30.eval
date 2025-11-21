@@ -1,0 +1,21 @@
+Cross-entropy: 2.9127 nats (= perplexity 18.406)
+Cross-entropy: 2.9127 nats (= perplexity 18.406)
+Cross-entropy: 2.9125 nats (= perplexity 18.403)
+Cross-entropy: 2.9125 nats (= perplexity 18.403)
+Cross-entropy: 2.9127 nats (= perplexity 18.406)
+Cross-entropy: 2.9127 nats (= perplexity 18.406)
+Total training time: 0:01:19
+---
+Cross-entropy: 2.9127 nats (= perplexity 18.406)
+Cross-entropy: 2.9127 nats (= perplexity 18.406)
+Total training time: 0:01:23
+---
+Wrote tagging to en_tiny_test_birnn_problex_ensup-30.output
+Cross-entropy: 2.9127 nats (= perplexity 18.406)
+Tagging accuracy: all: 0.000%, known: 0.000%, seen: nan%, novel: 0.000%
+===
+Cross-entropy: 2.9125 nats (= perplexity 18.403)
+Cross-entropy: 2.9125 nats (= perplexity 18.403)
+Cross-entropy: 2.9121 nats (= perplexity 18.396)
+Cross-entropy: 2.9121 nats (= perplexity 18.396)
+Cross-entropy: 2.9121 nats (= perplexity 18.396)
