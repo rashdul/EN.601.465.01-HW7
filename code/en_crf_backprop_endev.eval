@@ -30,3 +30,5 @@ Total negative logprob: 18713.5964 over 24945 tokens
 Cross-entropy: 0.7502 nats (= perplexity 2.117)
 Total negative logprob: 18339.6185 over 24945 tokens
 Cross-entropy: 0.7352 nats (= perplexity 2.086)
+Total negative logprob: 17996.9141 over 24945 tokens
+Cross-entropy: 0.7215 nats (= perplexity 2.057)
