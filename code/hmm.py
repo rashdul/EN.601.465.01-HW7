@@ -433,7 +433,8 @@ class HiddenMarkovModel:
         k = 0
         if not torch.isfinite(self.log_Z):
             return torch.tensor(float("-inf"), dtype=self.dtype, device=self.device)
-        invZ = torch.exp((-self.log_Z).clamp(min=-50.0, max=50.0))
+        # alpha and beta vectors are scaled; multiply by Z to recover unscaled posteriors
+        Z = torch.exp(self.log_Z.clamp(min=-50.0, max=50.0))
 
         
         maskA = torch.ones_like(self.A)
@@ -462,7 +463,7 @@ class HiddenMarkovModel:
             beta_j_1 = A @ tmp
 
             if w_j != self.eos_w and w_j != self.bos_w:
-                gamma_j = (self.alpha[j] * beta[j]) * invZ
+                gamma_j = (self.alpha[j] * beta[j]) * Z
                 gamma_j = gamma_j.clone()
                 gamma_j[self.bos_t] = 0.0
                 gamma_j[self.eos_t] = 0.0
@@ -471,7 +472,7 @@ class HiddenMarkovModel:
                 else:
                     self.B_counts[:, w_j] += mult * gamma_j
 
-            xi_j = (self.alpha[j - 1].unsqueeze(1) * A) * (tmp.unsqueeze(0)) * invZ
+            xi_j = (self.alpha[j - 1].unsqueeze(1) * A) * (tmp.unsqueeze(0)) * Z
             xi_j = xi_j * maskA
             if t_obs is not None:
                 mask_to_t = torch.zeros_like(xi_j)
